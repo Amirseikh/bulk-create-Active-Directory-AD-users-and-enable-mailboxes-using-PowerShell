@@ -1,0 +1,16 @@
+# Contains DPAPI-encrypted secrets and your real environment config - never commit
+ADProvisioning.config.json
+*.config.json
+
+# Run logs (transcripts can include AD responses, session details)
+Logs/
+*.log
+
+# Result exports contain plaintext generated passwords
+Results_*.csv
+ADProvisioning_Results_*.csv
+*_Result_*.csv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
